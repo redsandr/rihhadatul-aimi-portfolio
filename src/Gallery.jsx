@@ -144,7 +144,7 @@ export default function Gallery({ SectionHead }) {
     <section id="worlds" className="gallery-section section-pad" ref={section}>
       <div className="wrap">
         <SectionHead
-          index="03"
+          index="04"
           label="3D WORK"
           title={
             <>

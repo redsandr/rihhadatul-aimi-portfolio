@@ -8,6 +8,7 @@ import {
   useTransform,
 } from "motion/react";
 import Gallery from "./Gallery.jsx";
+import Research from "./Research.jsx";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
@@ -77,6 +78,7 @@ function Header() {
         <span className="nav-kicker">RIHHADATUL AIMI / PORTFOLIO</span>
         {[
           ["Work", "#work"],
+          ["Research", "#research"],
           ["3D worlds", "#worlds"],
           ["About", "#about"],
           ["CV", "#cv"],
@@ -218,7 +220,7 @@ function Hero() {
         {playing ? "PAUSE FILM Ⅱ" : "PLAY FILM ▶"}
       </button>
       <div className="hero-side" aria-hidden="true">
-        SCROLL TO EXPLORE / 01 OF 05
+        SCROLL TO EXPLORE / 01 OF 06
       </div>
     </section>
   );
@@ -507,7 +509,7 @@ function About() {
     <section id="about" className="about section-pad">
       <div className="wrap">
         <SectionHead
-          index="04"
+          index="05"
           label="ABOUT"
           title={
             <>
@@ -604,7 +606,7 @@ function CVs() {
     <section id="cv" className="cv-section section-pad">
       <div className="wrap">
         <SectionHead
-          index="05"
+          index="06"
           label="RESUMES"
           title={
             <>
@@ -727,6 +729,7 @@ function App() {
             <Hero />
             <Statement />
             <Work />
+            <Research SectionHead={SectionHead} />
             <Gallery SectionHead={SectionHead} />
             <About />
             <CVs />

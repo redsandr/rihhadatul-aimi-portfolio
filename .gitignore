@@ -3,3 +3,4 @@ dist/
 asset/
 .DS_Store
 *.log
+__pycache__/
