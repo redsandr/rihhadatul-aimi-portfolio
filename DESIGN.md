@@ -1,0 +1,5 @@
+# Visual system
+
+The portfolio is an editorial collision between analytical systems and imagined worlds: near-black, mineral ivory, vivid pale chartreuse, and clay coral. Space Grotesk gives project and navigation typography structural weight; Instrument Serif introduces an expressive human counterpoint; DM Sans carries the reading text. Huge headings are balanced against small technical labels and hairlines. The hero uses the owner's character film, not stock footage. Portfolio renders occupy a full gallery with a discoverable thumbnail rail. Project diagrams are authored in CSS, not fabricated screenshots.
+
+Motion has a purpose: GSAP gives the hero a composed entrance and scroll parallax, Motion connects the chapter statement to scrolling and reveals work as it enters view, and the gallery transitions between actual renders. Do not autoplay mobile video or animate when reduced motion is requested. All actionable elements retain visible keyboard focus; the gallery supports keyboard arrow navigation in its full-image view. CV cards remain plain, legible download links.
